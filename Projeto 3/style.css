@@ -1,0 +1,64 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darksalmon;
+}
+
+header{
+    background-image: url("Imagens/saly3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+audio{
+    display: flex;
+    margin-left: 75%;
+}
+
+.content{
+    padding: 20px;
+}
+
+.section{
+    margin-bottom: 20px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image{
+    flex:1;
+    margin: 0 10px;
+    text-align:center;
+}
+
+.image img{
+    max-width: 80%;
+    height: auto;
+    border: 1px solid rgb(red, green, blue);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.caption{
+    margin-top: 10px;
+    font-style: italic;
+    color:rgb(0, 0, 0);
+}
+
+footer{
+    background-color: crimson;
+    color:blanchedalmond;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
