@@ -18,6 +18,7 @@ header.hero{
 .hero-content{
     max-width: 600px;
     margin: auto;
+    color: black;
 }
 
 .hero h1{
@@ -35,7 +36,6 @@ header.hero{
     padding: 10px 20px;
     background-color: red;
     color: white;
-    text-decoration: none;
     border-radius: 5px;
     font-size: 1rem;
 }
@@ -94,9 +94,14 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
 li a:hover {
     background-color: #111;
+}
+
+#sf {
+    height: 220px;
+    width: 370px;
+    box-sizing: border-box;
 }
