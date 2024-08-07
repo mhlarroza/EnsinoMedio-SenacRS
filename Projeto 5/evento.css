@@ -1,76 +1,88 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
-header.hero{
-    background: url("") no-repeat center center/cover;
-    color: white;
+header.hero {
+    background-color: snow;
+    color: rgb(0, 0, 0);
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 
-.hero-content{
+.logo-container {
+    position: absolute;
+    top: 30px;
+    left: 45px;
+}
+
+#sf {
+    height: 73px;
+    width: 335px;
+}
+
+.hero-content {
     max-width: 600px;
     margin: auto;
     color: black;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
 }
 
-.hero p{
+.hero p {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
-.btn{
+.btn {
     display: inline-block;
     padding: 10px 20px;
     background-color: red;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     font-size: 1rem;
 }
 
-section{
+section {
     padding: 60px 20px;
     text-align: center;
 }
 
-.about-section{
+.about-section {
     background-color: #f4f4f4;
 }
 
-.schedule-section{
+.schedule-section {
     background-color: #ffffff;
 }
 
-.schedule.item{
+.schedule-item {
     margin-bottom: 20px;
 }
 
-.schedule-item h3{
+.schedule-item h3 {
     font-size: 1.5rem;
     color: #ff5722;
 }
 
-.schedule-item p{
+.schedule-item p {
     font-size: 1rem;
 }
 
-.contact-section{
+.contact-section {
     background-color: #f4f4f4;
 }
 
-footer.footer{
+footer.footer {
     background-color: black;
     color: white;
     padding: 20px 0;
@@ -87,21 +99,23 @@ ul {
 
 li {
     float: left;
+    margin-right: 50px; /* Adiciona espaço entre os itens de navegação */
 }
 
 li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
+    justify-content: space-between;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #ffffff;
 }
 
-#sf {
-    height: 220px;
-    width: 370px;
-    box-sizing: border-box;
+.nav {
+    position: absolute;
+    right: 45px;
+    background-color: #ffffff;
 }
