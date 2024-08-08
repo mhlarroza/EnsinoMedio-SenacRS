@@ -1,3 +1,7 @@
+main {
+    background-color: rgb(210, 205, 205);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -6,7 +10,7 @@ body {
 }
 
 header.hero {
-    background-color: snow;
+    background-color: rgb(210, 205, 205);
     color: rgb(0, 0, 0);
     height: 150px;
     display: flex;
@@ -23,8 +27,8 @@ header.hero {
 }
 
 #sf {
-    height: 73px;
-    width: 335px;
+    height: 63px;
+    width: 270px;
 }
 
 .hero-content {
@@ -79,7 +83,7 @@ section {
 }
 
 .contact-section {
-    background-color: #f4f4f4;
+    background-color: rgb(210, 205, 205);
 }
 
 footer.footer {
@@ -111,11 +115,11 @@ li a {
 }
 
 li a:hover {
-    background-color: #ffffff;
+    background-color: #dbd8d0;
 }
 
 .nav {
     position: absolute;
     right: 45px;
-    background-color: #ffffff;
+    background-color: rgb(210, 205, 205);
 }
