@@ -14,19 +14,19 @@ body {
 
 header {
     width: 100%;
-    height: 800px;
+    height: 250px;
     background: #333;
     float: left;
     }
     .sidebarA {
-        width: 20%;
+        width: 30%;
         height: 800px;
         background: blue;
         float: left;
     }
 
     main {
-        width: 60%;
+        width: 50%;
         height: 800px;
         background: purple;
         float: left;
@@ -45,3 +45,24 @@ header {
         background: #333;
         float: left;
     }
+
+#egito {
+    width: 250px;
+    height: 180px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-right: 26%;
+}
+
+#nz {
+    width: 250px;
+    height: 180px;
+    margin-bottom: 80px;
+    margin-right: 26%;
+}
+
+#italia {
+    width: 250px;
+    height: 180px;
+    margin-right: 26%;
+}
