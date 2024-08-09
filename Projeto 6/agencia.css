@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 20px;
+    color: white;
+    text-shadow: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+header {
+    width: 100%;
+    height: 800px;
+    background: #333;
+    float: left;
+    }
+    .sidebarA {
+        width: 20%;
+        height: 800px;
+        background: blue;
+        float: left;
+    }
+
+    main {
+        width: 60%;
+        height: 800px;
+        background: purple;
+        float: left;
+    }
+
+    .sidebarB {
+        width: 20%;
+        height: 800px;
+        background: blue;
+        float: right;
+    }
+
+    footer {
+        width: 100%;
+        height: 150px;
+        background: #333;
+        float: left;
+    }

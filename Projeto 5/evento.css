@@ -10,7 +10,7 @@ body {
 }
 
 header.hero {
-    background-color: rgb(210, 205, 205);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     height: 150px;
     display: flex;
@@ -75,7 +75,7 @@ section {
 
 .schedule-item h3 {
     font-size: 1.5rem;
-    color: #ff5722;
+    color: #1b85ff;
 }
 
 .schedule-item p {
@@ -103,7 +103,7 @@ ul {
 
 li {
     float: left;
-    margin-right: 50px; /* Adiciona espaço entre os itens de navegação */
+    margin-right: 50px;
 }
 
 li a {
@@ -115,11 +115,23 @@ li a {
 }
 
 li a:hover {
-    background-color: #dbd8d0;
+    background-color: #1b85ff;
 }
 
 .nav {
     position: absolute;
     right: 45px;
-    background-color: rgb(210, 205, 205);
+    background-color: rgb(255, 255, 255);
+}
+
+.c{
+    margin-bottom: 10px;
+}
+
+.p{
+    margin-top: 0px;
+}
+
+.o{ 
+    margin-bottom: auto;
 }
