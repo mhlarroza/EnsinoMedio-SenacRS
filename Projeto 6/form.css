@@ -1,0 +1,78 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+.icon img {
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    right: 440px;
+    z-index: 10;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+label {
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 16px;
+}
+
+input, textarea, select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+button {
+    width: 50%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
