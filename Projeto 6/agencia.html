@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="agencia.css">
 </head>
 <body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="contact-info">
+                    <span class="phone"> (11) 1234-5678</span>
+                    <span class="email"> contato@exemplo.com</span>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#services">Pacotes</a></li>
+                    <li><a href="#contact">Agende sua viagem!</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main>
         <div class="carousel">
             <div class="carousel-wrapper">
@@ -22,7 +41,40 @@
             </div>
             <button class="prev">&#10094;</button>
             <button class="next">&#10095;</button>
-        </div>
+            </div>
+            <section id="home">
+                <h1>Bem-vindo à Pelo Mundo!</h1>
+                <p>Juntem-se a nós para vivenciarem as melhores viagens de suas vidas. <br> Oferecemos pacotes únicos, preços justos e atrações exclusivas.</p>
+            </section>
+            <section id="services">
+                <h2>Pacotes</h2>
+                    <p>Detalhes sobre os serviços oferecidos.</p>
+            </section>
+            <section id="contact">
+                <h2>Agende sua viagem!</h2>
+                <div class="form-container">
+                    <form action="#" method="POST">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome" required></imput>
+            
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required></input>
+            
+                        <label for="phone">Número de telefone:</label>
+                        <input type="phone" id="phone" name="phone" placeholder="Digite seu telefone" required></input>
+            
+                        <label for="choice">Escolha o pacote desejado:</label>
+                        <select name="escolha" id="lang">
+                            <option value=".">.</option>
+                            <option value="paises">Todos os países</option>
+                            <option value="italia">Passeio pela Itália</option>
+                            <option value="egito e nz">2 Meses - Egito e Nova Zelândia</option>
+                        </select>
+            
+                        <button id="b" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
     </main>
 
     <script src="script.js"></script>

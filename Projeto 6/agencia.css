@@ -53,3 +53,160 @@ button {
 .next {
     right: 10px;
 }
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header-top {
+    background-color: #fad75b;
+    padding: 3.0rem 0;
+}
+
+.header-top .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    font-size: 0.9rem;
+    color: #333;
+    display: flex;
+    margin-left: 69.5%;
+}
+
+.contact-info span {
+    margin-right: 1rem;
+}
+
+.header-top .phone::before {
+    content: "\1F4DE";
+    /* Emoji de telefone */
+    margin-right: 0.5rem;
+}
+
+.header-top .email::before {
+    content: "\2709";
+    /* Emoji de envelope */
+    margin-right: 0.5rem;
+}
+
+.navbar {
+    background-color: #fbe184;
+    color: #000000;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #2a56f5;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+section h1, section h2 {
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1.1rem;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+    display: flex;
+    margin-left: 33%;
+    height: 500px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+label {
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 16px;
+}
+
+input, textarea, select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+#b {
+    width: 30%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 180px;
+}
+
+#b:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
