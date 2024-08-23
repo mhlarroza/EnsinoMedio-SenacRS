@@ -158,24 +158,16 @@ section p {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 80%;
-    max-width: 400px;
+    max-width: 380px;
     position: relative;
     display: flex;
-    margin-left: 33%;
-    height: 500px;
-}
-
-h2 {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-    font-size: 35px;
+    margin-left: 33.5%;
+    height: 380px;
 }
 
 label {
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: block;
     font-size: 16px;
 }
@@ -188,25 +180,36 @@ input, textarea, select {
     border-radius: 5px;
     font-size: 16px;
     margin-left: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 #b {
-    width: 30%;
+    width: 50%;
     padding: 12px;
-    background-color: #4CAF50;
+    background-color: #3f86e8;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     font-size: 16px;
-    margin-left: 100px;
+    margin-left: 80px;
     display: flex;
     margin-bottom: 10px;
-    margin-top: 180px;
+    margin-top: 150px;
+    justify-content: center;
 }
 
 #b:hover {
-    background-color: #45a049;
+    background-color: #0568b8;
     transform: scale(1.05);
+}
+
+#img1 {
+    margin-right: 8%;
+}
+
+#img2 {
+    margin-right: 8%;
 }
