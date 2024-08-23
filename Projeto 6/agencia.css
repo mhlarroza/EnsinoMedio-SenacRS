@@ -63,7 +63,7 @@ body, h1, h2, p, ul {
 
 .header-top {
     background-color: #fad75b;
-    padding: 3.0rem 0;
+    padding: 1.0rem 0;
 }
 
 .header-top .container {
@@ -212,4 +212,13 @@ input, textarea, select {
 
 #img2 {
     margin-right: 8%;
+}
+
+#lg {
+    display: flex;
+    margin-left: 10%;
+    width: 100px;
+    height: 80px;
+    margin-bottom: 0%;
+    margin-top: 0.5rem;
 }
