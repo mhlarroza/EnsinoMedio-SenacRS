@@ -1,0 +1,55 @@
+table {
+    width: 70%;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.turno {
+    font-size:larger;
+    background-color: rgb(201, 216, 243);
+}
+
+.tec {
+    background-color: rgb(254, 183, 227);
+}
+
+.mat {
+    background-color: rgb(239, 170, 145);
+}
+
+.int {
+    background-color: rgb(201, 216, 243);
+}
+
+.hor {
+    background-color: rgb(201, 216, 243);
+}
+
+.gra {
+    background-color: rgb(201, 216, 243);
+}
+
+.ch {
+    background-color: rgb(248, 199, 130);
+}
+
+.cn {
+    background-color: rgb(152, 247, 152);
+}
+
+.port {
+    background-color:rgb(221, 166, 239);
+}
+
+.pv {
+    background-color: rgb(125, 125, 233);
+}
