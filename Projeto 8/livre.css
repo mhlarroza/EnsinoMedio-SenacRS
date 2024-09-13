@@ -12,10 +12,10 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
 .bgimg-1 {
-    background-image: url("Imagens/Untitled\ Project.jpg");
+    background-image: url("Imagens/Untitled Project.jpg");
     min-height: 100%;
 }
 
@@ -54,10 +54,10 @@ h3 {
     color: #111;
 }
 
-  /* Turn off parallax scrolling for tablets and phones */
-    @media only screen and (max-device-width: 1024px) {
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
+        background-attachment: scroll;
     }
 }
 
@@ -68,4 +68,41 @@ h3 {
     font-size: 25px;
     letter-spacing: 10px;
     margin-right: 80%;
+}
+
+p {
+    font-size: medium;
+    text-align: center;
+}
+
+footer {
+    background-color: #f1f1f1; /* opcional, para melhor visualização */
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+li {
+    margin: 0 213px; 
+}
+
+.livre a, .will a {
+    text-decoration: none;
+    color: #333; 
 }
