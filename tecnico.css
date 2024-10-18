@@ -1,0 +1,39 @@
+header {
+    margin: 5%;
+    padding: 0%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.inst {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inst img {
+    width: 200px;
+    height: 170px;
+    border: 3%;
+    margin-right: 20px;
+}
+
+.inst p {
+    font-size: larger;
+    color: black;
+    margin-left: 10%;
+}
