@@ -19,7 +19,7 @@ h1 {
 .inst {
     display: flex;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(241, 235, 203);
     padding: 20px;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
