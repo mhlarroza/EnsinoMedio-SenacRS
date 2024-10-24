@@ -43,7 +43,29 @@ npm install
 
 ## Histórico do Projeto
 
-| Fase               | Data       |  Descrição                          |
-|--------------------|------------|-------------------------------------|
-| Início do projeto  | DD/MM/AAAA | Início da concepção do projeto      |
-| Fase 1             | DD/MM/AAAA | Desenvolvimento do protótipo        |
+| Fase               | Data       |  Descrição                                   |
+|--------------------|------------|----------------------------------------------|
+| Início do projeto  | 03/10/2024 | Início da concepção do projeto               |
+| Fase 1             | 14/10/2024 | Desenvolvimento do protótipo                 |
+| Fase 2             | DD/MM/AAAA | Implementação das principais funcionalidades |
+| Finalização        | DD/MM/AAAA | Ajustes finais e testes                      |
+
+## Prints das Telas do Projeto
+
+### Tela Inicial:
+![Tela Inicial]()
+
+### Tela de Login:
+![Tela de Login]()
+
+### Dashboard:
+![Dashboard]()
+
+## Conclusão
+
+O projeto **[]** demonstrou ser uma solução eficaz para...
+O desenvolvimento deste projeto trouxe valiosas lições sobre [exemplo:]...
+
+### Contato da Equipe
+
+Caso tenha interesse em saber mais sobre o projeto ou colaborar conosco...
