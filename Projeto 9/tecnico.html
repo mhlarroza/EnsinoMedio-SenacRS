@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tecnico.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=DM+Serif+Display:ital@0;1&family=Lilita+One&display=swap" rel="stylesheet">
     <title>Feira do Técnico</title>
 </head>
 <body>
     <header>
-        <h3> LOGO </h3>
-        <hr>
-            <h3 id="landingpage"> INICIO </h3>
-            <div class="dropdown">
-                <button class="dropbtn">Pesquisar 🔎</button>
-                <div class="dropdown-content">
-                    <a href="#">Zona ...</a>
-                    <a href="#">Zona ...</a>
-                    <a href="#">Zona ...</a>
-                </div>
-                </div>
-        <hr>
+        <img id="lg" src="Imagens/Logo.png" alt="">
+    </header>
+    <hr>
+    <nav>
+        <a href="#about">SOBRE NÓS</a>
+        <a href="styledoac.css">DOAÇÕES</a>
+        <a href="">DENÚNCIA</a>
+        <div class="search-container">
+            <input type="text" placeholder="SEARCH" class="search-input">
+            <button class="search-button">Buscar</button>
+        </div>
+    </nav>
+<hr>
     </header>
     <main>
-        <h1> ZONA ... </h1>
+        <h1 id="zona"> Zona Leste </h1>
         <div class="boxes">
             <div class="inst">   
                 <img src="imagem.jpg" alt="">
@@ -43,8 +47,10 @@
             </div>
         </div>
     </main>
+    <hr>
     <footer>
-
+        <a href="">EMAIL</a>        <a href="https://www.instagram.com/?next=%2F">INSTAGRAM</a>      <a href="">CONTATO</a>
+    </footer>
     </footer>
 </body>
 <script src="tecnico.js"></script>

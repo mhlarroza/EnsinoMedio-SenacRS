@@ -1,0 +1,117 @@
+header {
+    margin: 5%;
+    padding: 0%;
+    text-align: center;
+}
+
+#zona {
+    margin: 50px 0;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: "Lilita One", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+}
+
+#lg {
+    margin-top: -5%;
+    margin-bottom: -5%;
+    height: 200px;
+    margin-left: 0%;
+}
+
+nav a{
+
+    color: rgb(0, 0, 0); 
+    display: inline-flex;
+    padding-left: 150px;
+    margin-right: 0px;
+    text-decoration: #333;
+    font-family: "Karla", "Helvetica Neue", sans-serif;
+}
+
+main{
+    margin-bottom: 40px;
+    
+}
+
+#landingpage {
+    margin-right: 50%;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.inst {
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 241, 222);
+    padding: 20px;
+    transition: transform .2s;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inst:hover{
+    transition-delay: 250ms;
+    transform: scale(1.1);
+
+}
+.inst img {
+    width: 200px;
+    height: 170px;
+    border: 3%;
+    margin-right: 20px;
+}
+
+.inst p {
+    font-size: larger;
+    color: black;
+    margin-left: 10%;
+}
+
+.search-container {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: 200px;
+    margin-left: 150px;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    width: 110px;
+    outline: none;
+    display: inline-flex;
+}
+
+.search-button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    display: inline-flex;
+}
+
+.search-button:hover {
+    background-color: #000000;
+}
+
+footer{
+    display: flex;
+    margin-left: 420px;
+    font-family: "Karla", "Helvetica Neue", sans-serif;
+    margin-bottom: 30px;
+}
+
+a {
+    word-spacing: 80px;
+}
