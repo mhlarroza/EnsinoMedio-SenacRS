@@ -117,7 +117,8 @@ a {
 }
 
 .button {
-    display: flex;
+    display: block;
+    float: left;
     border-radius: 4px;
     background-color: #f4511e;
     border: none;
@@ -130,8 +131,8 @@ a {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    margin-bottom: -20%;
-    margin-right: 30%;
+    margin-bottom: -15%;
+    margin-right: 20%;
 }
 
 .button span {
@@ -160,5 +161,8 @@ a {
 }
 
 p {
-    margin: 0%;
+    display: block;
+    float: left;
+    width: 400px;
+    margin-bottom: 20px;
 }
