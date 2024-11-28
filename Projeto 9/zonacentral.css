@@ -4,6 +4,9 @@ header {
     text-align: center;
 }
 
+/* acho que daqui vc continua, acho que ta bom agora. */ 
+
+
 #zona {
     margin: 50px 0;
     text-align: center;
@@ -20,19 +23,25 @@ header {
     margin-left: 0%;
 }
 
-nav a{
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+nav a{
     color: rgb(0, 0, 0); 
     display: inline-flex;
-    padding-left: 150px;
-    margin-right: 0px;
     text-decoration: #333;
     font-family: "Karla", "Helvetica Neue", sans-serif;
 }
 
-main{
+nav a:hover {
+    color: #f4511e
+}
+
+main {
     margin-bottom: 40px;
-    
 }
 
 #landingpage {
@@ -42,36 +51,37 @@ main{
 .boxes {
     display: flex;
     flex-direction: column;
-    gap: 35px;
-    max-width: 900px;
+    gap: 3rem;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
-.inst {
+.card {
     display: flex;
     align-items: center;
     background-color: rgb(240, 241, 222);
-    padding: 20px;
+    padding: 3rem;
     transition: transform .2s;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    gap: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
 }
-.inst:hover{
+.card:hover{
     transition-delay: 250ms;
     transform: scale(1.1);
 
 }
-.inst img {
-    width: 200px;
-    height: 170px;
+.card img {
+    width: 300px;
+    height: 150px;
     border: 3%;
-    margin-right: 20px;
 }
 
-.inst p {
+.card p {
     font-size: larger;
     color: black;
-    margin-left: 10%;
 }
 
 .search-container {
@@ -79,7 +89,6 @@ main{
     border: 1px solid #ccc;
     overflow: hidden;
     width: 200px;
-    margin-left: 150px;
 }
 
 .search-input {
@@ -97,7 +106,6 @@ main{
     padding: 10px 15px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-right: 10px;
     display: inline-flex;
 }
 
@@ -112,57 +120,30 @@ footer{
     margin-bottom: 30px;
 }
 
-a {
-    word-spacing: 80px;
-}
 
-.button {
-    display: block;
-    float: left;
-    border-radius: 4px;
+.btn {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 10px;
     background-color: #f4511e;
     border: none;
     color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    height: 50px;
+    font-size: 1rem;
+    width: 11rem;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
-    margin-bottom: -15%;
-    margin-right: 20%;
 }
 
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+.card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-.button:hover span {
-    padding-right: 25px;
-}
-
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-
-p {
-    display: block;
-    float: left;
-    width: 400px;
-    margin-bottom: 20px;
+.card .description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
 }
