@@ -1,0 +1,139 @@
+header {
+    margin: 5%;
+    padding: 0%;
+    text-align: center;
+}
+
+#zona {
+    margin: 50px 0;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: "Karla", "Helvetica Neue", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+}
+
+#lg {
+    margin-top: -5%;
+    margin-bottom: -5%;
+    height: 200px;
+    margin-left: 0%;
+}
+
+
+
+main {
+    margin-bottom: 40px;
+}
+
+#landingpage {
+    margin-right: 50%;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    transition: transform .2s;
+    border-radius: 5%;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    gap: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.card:hover{
+    transition-delay: 250ms;
+    transform: scale(1.1);
+}
+.card img {
+    width: 300px;
+    height: 150px;
+    border: 3%;
+}
+
+.card p {
+    font-size: larger;
+    color: black;
+}
+
+.search-container {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: 200px;
+    margin-left: 150px;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    width: 110px;
+    outline: none;
+    display: inline-flex;
+}
+
+.search-button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-flex;
+}
+
+.search-button:hover {
+    background-color: #000000;
+}
+
+
+
+.btn {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 10px;
+    background-color: #64a5c5;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    width: 11rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card .description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.nav-item {
+    word-spacing: 80px;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+}
+
+#amg #esp #casa #sos {
+    width: 10%;
+    height: 10%;
+}

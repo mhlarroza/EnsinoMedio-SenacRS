@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="zonaleste.css">
+    <link rel="stylesheet" href="zonacentral.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="shortcut icon" href="Imagens/favicon-32x32.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Coiny&family=DM+Serif+Display:ital@0;1&family=Lilita+One&display=swap" rel="stylesheet">
-    <title>Feira do Técnico</title>
+    <title>Sorriso Solidário</title>
 </head>
 <body>
     <header>
-        <img id="lg" src="Imagens/Logo.png" alt="">
+        <img id="lg" src="Imagens/Logo.png" alt="imagem">
     </header>
     <hr>
     <nav>
@@ -20,7 +21,7 @@
         <a href="styledoac.css">DOAÇÕES</a>
         <a href="">DENÚNCIA</a>
         <div class="search-container">
-            <input type="text" placeholder="SEARCH" class="search-input">
+            <input type="text" placeholder="Pesquisar..." class="search-input">
             <button class="search-button">Buscar</button>
         </div>
     </nav>
@@ -29,30 +30,78 @@
     <main>
         <h1 id="zona"> Zona Sul </h1>
         <div class="boxes">
-            <div class="inst">   
-                <img src="imagem.jpg" alt="">
-                <p> NOME INSTITUIÇÃO <br> Descrição <br> Contato/Endereço </p>
+            <div class="card">
+                <img id="amg" src="Imagens/amigosdelucas.jpg" alt="imagem">
+                <div class="content">
+                    <div class="description">
+                        Instituto Beneficente de Amparo à Criança e Mãe Abandonada <br>
+                        Contato: (51) 3268-7518 <br>
+                        Endereço: R. Antônio Tessera, 138
+                    </div class="description">
+                    <button class="btn">
+                        <a id="link" href="https://www.instagram.com/instamigosdelucas/">Saiba mais!</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="inst">   
-                <img src="imagem.jpg" alt="">
-                <p> NOME INSTITUIÇÃO <br> Descrição <br> Contato/Endereço </p>
+            <div class="card">   
+                <img id="sos" src="Imagens/sos.jpg" alt="imagem">
+                <div class="content">
+                    <div class="description">
+                        SOS - Casas de Acolhida <br>
+                        Contato: (51) 3085-0125 <br>
+                        Endereço: R. Ramiro Barcelos, 1893
+                    </div class="description">
+                    <button class="btn">
+                        <a id="link" href="https://www.instagram.com/sosacolhida/">Saiba mais!</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="inst">   
-                <img src="imagem.jpg" alt="">
-                <p> NOME INSTITUIÇÃO <br> Descrição <br> Contato/Endereço </p>
+            <div class="card">   
+                <img id="casa" src="Imagens/casa.png" alt="imagem">
+                <div class="content">
+                    <div class="description">
+                        Casa da Criança Nossa Senhora Auxiliadora <br>
+                        Contato: (51) 3332-9521 <br>
+                        Endereço: R. Felipe Neri, 78
+                    </div class="description">
+                    <button class="btn">
+                        <a id="link" href="https://www.instagram.com/explore/locations/231518977199086/casa-da-crianca-nossa-senhora-auxiliadora/">Saiba mais!</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="inst">   
-                <img src="imagem.jpg" alt="">
-                <p> NOME INSTITUIÇÃO <br> Descrição <br> Contato/Endereço </p>
+            <div class="card">   
+                <img id="esp" src="Imagens/esperanza.jpg" alt="imagem">
+                <div class="content">
+                    <div class="description">
+                        Instituto Esperanza Organização Humanitária <br>
+                        Contato: (51) 99605-3575 <br>
+                        Endereço: Av. Cristóvão Colombo, 341
+                    </div class="description">
+                    <button class="btn">
+                        <a id="link" href="https://www.instagram.com/esperanza_organizacao/">Saiba mais!</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     </main>
     <hr>
     <footer>
         <nav>
-            <a href="mailto:sorrisosolidario.apoioaosjovens@gmail.com">Email</a>
-            <a href="https://www.instagram.com/">Instagram</a>
-            <a href="">Contato</a>
+            <a href="mailto:sorrisosolidario.apoioaosjovens@gmail.com" class="nav-item">Email</a>
+            <a href="https://www.instagram.com/" class="nav-item">Instagram</a>
+            <a href="..." class="nav-item">Contato</a>
         </nav>
     </footer>
 </body>

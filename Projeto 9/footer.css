@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    margin-left: 210px;
+    font-family: "Karla", "Helvetica Neue", sans-serif;
+    margin-bottom: 30px;
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    padding-left: 150px;
+    margin-right: 0px;
+    text-decoration: #333;
+    font-family: "Karla", "Helvetica Neue", sans-serif;
+}
+
+.nav-item:hover {
+    color: #f4511e
+}

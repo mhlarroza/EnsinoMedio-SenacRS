@@ -4,9 +4,6 @@ header {
     text-align: center;
 }
 
-/* acho que daqui vc continua, acho que ta bom agora. */ 
-
-
 #zona {
     margin: 50px 0;
     text-align: center;
@@ -23,22 +20,7 @@ header {
     margin-left: 0%;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-nav a{
-    color: rgb(0, 0, 0); 
-    display: inline-flex;
-    text-decoration: #333;
-    font-family: "Karla", "Helvetica Neue", sans-serif;
-}
-
-nav a:hover {
-    color: #f4511e
-}
 
 main {
     margin-bottom: 40px;
@@ -59,11 +41,11 @@ main {
 .card {
     display: flex;
     align-items: center;
-    background-color: rgb(240, 241, 222);
+    background-color: rgb(255, 255, 255);
     padding: 3rem;
     transition: transform .2s;
     border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     gap: 2rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -88,6 +70,7 @@ main {
     border: 1px solid #ccc;
     overflow: hidden;
     width: 200px;
+    margin-left: 150px;
 }
 
 .search-input {
@@ -112,12 +95,6 @@ main {
     background-color: #000000;
 }
 
-footer{
-    display: flex;
-    margin-left: 210px;
-    font-family: "Karla", "Helvetica Neue", sans-serif;
-    margin-bottom: 30px;
-}
 
 
 .btn {
@@ -127,7 +104,7 @@ footer{
     align-items: center;
     gap: 1.5rem;
     border-radius: 10px;
-    background-color: #f4511e;
+    background-color: #64a5c5;
     border: none;
     color: #FFFFFF;
     font-size: 1rem;
@@ -145,4 +122,18 @@ footer{
 .card .description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
+}
+
+.nav-item {
+    word-spacing: 80px;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+}
+
+#amg #esp #casa #sos {
+    width: 10%;
+    height: 10%;
 }
