@@ -137,3 +137,34 @@ main {
     width: 10%;
     height: 10%;
 }
+
+.search-container {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: 200px;
+    margin-left: 150px;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    width: 110px;
+    outline: none;
+    display: inline-flex;
+}
+
+.search-button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    display: inline-flex;
+    margin-left: 22px;
+}
+.search-button:hover {
+    background-color: #000000;
+}

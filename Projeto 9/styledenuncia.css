@@ -1,0 +1,102 @@
+#logo {
+    margin-top: -1%;
+    margin-bottom: -5%;
+    height: 200px;
+    margin-left: 370px;
+  
+  }
+  h1 {
+      font-family: "Karla", "Helvetica Neue", sans-serif;
+      text-align: center;
+      font-size: 23px;
+      margin: 10px 0;
+      font-weight: normal;
+    
+    }
+    header{
+      margin-bottom: 6%;
+    }
+  
+    nav{
+      display: flex;
+      margin-left: 450px;
+    }
+    nav a{
+    
+      color: rgb(0, 0, 0); 
+      display: inline-flex;
+      padding-left: 10px;
+      margin-right: 100px;
+      text-decoration: #333;
+      font-family: "Karla", "Helvetica Neue", sans-serif;
+    
+    }
+    hr{
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    .container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    .card {
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 200px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+      padding-right: 10px;
+      font-family: "Karla", "Helvetica Neue", sans-serif;
+  
+  }
+  .card:hover {
+      transform: scale(1.05);
+  }
+  .card img {
+      width: 80px;
+      height: 80px;
+  }
+  .card h2 {
+      color: #000000;
+      margin: 15px 0;
+      font-family: "Karla", "Helvetica Neue", sans-serif;
+    
+  }
+  .card p {
+      color: #000000;
+      font-size: 14px;
+      font-family: "Karla", "Helvetica Neue", sans-serif;
+    
+  }
+  
+  .disque{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 510px;
+    font-family: "Karla", "Helvetica Neue", sans-serif;
+    
+  }
+  
+  button{
+    background-color: rgb(215, 3, 3);
+    color:rgb(0, 0, 0);
+    border-radius: 5%;
+    width:200px;
+    height: 100px;
+    border: none;
+    border-style: none;
+    font-size: 20px;
+    margin-left: 14px;
+    margin-bottom: 30px;
+  }
+  footer{
+    display: flex;
+    margin-left: 435px;
+  word-spacing: 80px;
+  font-family: "Karla", "Helvetica Neue", sans-serif;
+  margin-bottom: 30px;
+  }
