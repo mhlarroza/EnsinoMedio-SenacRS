@@ -71,7 +71,6 @@ main {
 .card:hover{
     transition-delay: 250ms;
     transform: scale(1.1);
-
 }
 .card img {
     width: 300px;
