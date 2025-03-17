@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(255, 255, 255);
+}
+
+h1 {
+    color:rgb(0, 23, 123);
+}
+
+button:hover {
+    background-color: rgb(166, 0, 255);
+}
+
+button {
+    background-color: rgb(255, 0, 136);
+    color:whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 100px;
+    width: 250px;
+}
