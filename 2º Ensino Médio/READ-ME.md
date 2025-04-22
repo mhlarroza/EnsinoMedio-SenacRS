@@ -1,0 +1,64 @@
+# Fugindo da Torre
+
+### Tema do Jogo:
+**[Um jogo de labirinto onde o jogador precisa escapar da torre.]**
+
+### Área do Projeto:
+**[Técnico]**
+
+## Integrantes:
+| Nome                 | GitHub                                                            | Contato                     |
+|----------------------|-------------------------------------------------------------------|-----------------------------|
+| Isabella Falcão      |[github.com/isabellafalcao](https://github.com/isabellafalcao)     |[isabellarf0300808@gmail.com]|
+| Maria Helena Larroza |[github.com/mhlarroza](https://github.com/mhlarroza)               |[malenaa2905@gmail.com]      |
+| Thaise Souza         |[github.com/ThaiseSouza](https://github.com/ThaiseSouza)           |[thaisevillasouza@gmail.com] |
+
+# Descrição Resumida do Projeto:
+[]
+
+# Como Jogar:
+[Use as setas UP, DOWN, RIGHT e LEFT para mover a Rapunzel dentro do labirinto e escapar da torre.]
+
+## Ferramentas Utilizadas:
+- **Linguagens**: [HTML, CSS, JavaScript]
+- **Frameworks/Bibliotecas**: []
+- **Ambiente de Desenvolvimento**: [Notebook]
+
+# Como rodar o jogo:
+## Clone o repositório
+git clone *link do repositorio*
+## Acesse a pasta do projeto
+cd nome-do-jogo
+## Abra um arquivo index.html em um navegador
+
+# Funcionalidades:
+[Tela de vitória.]
+
+# Melhorias futuras:
+[]
+
+## Histórico do Projeto
+| Fase               | Data       |  Descrição                                   |
+|--------------------|------------|----------------------------------------------|
+| Início do projeto  | 03/10/2024 | Início da concepção do projeto               |
+| Fase 1             | 14/10/2024 | Desenvolvimento do protótipo                 |
+| Fase 2             | DD/MM/AAAA | Implementação das principais funcionalidades |
+| Finalização        | DD/MM/AAAA | Ajustes finais e testes                      |
+
+## Prints das Telas do Projeto
+
+### Tela Inicial:
+![Tela Inicial]()
+
+### Tela de Login:
+![Tela de Login]()
+
+### Dashboard:
+![Dashboard]()
+
+## Conclusão
+O projeto **[]** demonstrou ser uma solução eficaz para...
+O desenvolvimento deste projeto trouxe valiosas lições sobre [exemplo:]...
+
+### Contato da Equipe
+Caso tenha interesse em saber mais sobre o projeto ou colaborar conosco...
