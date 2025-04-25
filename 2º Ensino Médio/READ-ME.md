@@ -47,15 +47,6 @@ cd nome-do-jogo
 
 ## Prints das Telas do Projeto
 
-### Tela Inicial:
-![Tela Inicial]()
-
-### Tela de Login:
-![Tela de Login]()
-
-### Dashboard:
-![Dashboard]()
-
 ## Conclusão
 O projeto **[]** demonstrou ser uma solução eficaz para...
 O desenvolvimento deste projeto trouxe valiosas lições sobre [exemplo:]...
