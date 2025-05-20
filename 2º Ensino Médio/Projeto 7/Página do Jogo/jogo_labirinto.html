@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>A Fuga da Torre</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script>
+  <style>
+    body {
+      background-image: url('rapunzel.jfif');
+      background-size: 40% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      margin: 0;
+    }
+
+    canvas {
+      display: block;
+      margin-top: 250px;
+      opacity: 0.8;
+    }
+
+    #final-message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  display: none; /* Só aparece ao vencer */
+  z-index: 10;
+}
+
+  </style>
+</head>
+<body>
+  <script>
+    let cellSize = 10;
+    let cols, rows;
+    let playerX = 1;
+    let playerY = 1;
+    let playerImg;
+    let trail = [];
+    let showMessage = false;
+
+    let maze = [
+      [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      [1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1],
+      [1,0,1,0,1,0,1,1,1,1,0,1,0,1,1,1,1,1,0,1],
+      [1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1],
+      [1,0,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1],
+      [1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1],
+      [1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,0,1],
+      [1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,1],
+      [1,0,1,1,0,1,0,0,0,1,1,1,0,1,0,1,0,1,0,2],
+      [1,0,1,0,0,1,1,1,0,0,0,1,0,1,0,0,0,1,1,1],
+      [1,0,1,0,1,1,0,0,0,1,0,1,0,1,1,1,0,0,0,1],
+      [1,0,0,0,1,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1],
+      [1,1,1,0,1,1,0,1,0,0,0,1,1,1,0,1,0,1,0,1],
+      [1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,1],
+      [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+    ];
+
+    function preload() {
+      playerImg = loadImage('rostorapun.webp');
+    }
+
+    function setup() {
+      cols = maze[0].length;
+      rows = maze.length;
+      createCanvas(cols * cellSize, rows * cellSize);
+      frameRate(60);
+      
+      for (let y = 0; y < rows; y++) {
+        trail[y] = [];
+        for (let x = 0; x < cols; x++) {
+          trail[y][x] = false;
+        }
+      }
+    }
+
+    function draw() {
+      background(255, 255, 255, 0); // transparente
+
+      drawMaze();
+      drawPlayer();
+      trail[playerY][playerX] = true;
+
+      if (maze[playerY][playerX] === 2) {
+    document.getElementById("final-message").style.display = "block";
+    noLoop(); // para parar o jogo
+}
+    }
+
+    function drawMaze() {
+      for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+          if (maze[y][x] === 1) {
+            fill(0); // parede
+          } else if (maze[y][x] === 2) {
+            fill(255); // saída
+          } else if (trail[y][x]) {
+            fill(255, 105, 180, 150);
+          } else {
+            fill(255, 255, 255, 10);
+          }
+          noStroke();
+          rect(x * cellSize, y * cellSize, cellSize, cellSize);
+        }
+      }
+    }
+
+    function drawPlayer() {
+      noStroke();
+      image(playerImg, playerX * cellSize, playerY * cellSize, cellSize, cellSize);
+    }
+
+    function keyPressed() {
+      let nextX = playerX;
+      let nextY = playerY;
+
+      if (keyCode === LEFT_ARROW) nextX--;
+      else if (keyCode === RIGHT_ARROW) nextX++;
+      else if (keyCode === UP_ARROW) nextY--;
+      else if (keyCode === DOWN_ARROW) nextY++;
+
+      if (nextX >= 0 && nextX < cols && nextY >= 0 && nextY < rows && maze[nextY][nextX] !== 1) {
+        playerX = nextX;
+        playerY = nextY;
+      }
+    }
+  </script>
+
+<p id="final-message">Você escapou do labirinto!</p>
+
+</body>
+</html>
