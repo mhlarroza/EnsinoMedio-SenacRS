@@ -1,13 +1,21 @@
 body {
-    background-image: url("fundoregras.jpeg");
+    background-image: url("fundoregras2.png");
     background-repeat: no-repeat;
     background-size: 1400px 700px;
 }
 
 .box {
-    background-color: rgb(67, 17, 113);
+    background-color: rgb(94, 34, 151);
     margin-top: 200px;
     margin-left: 400px;
     margin-right: 400px;
     border-radius: 5%;
+}
+
+#titulo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Karla", "Helvetica Neue", sans-serif;
+    font-size: 50px;
+    font-style: normal;
 }
