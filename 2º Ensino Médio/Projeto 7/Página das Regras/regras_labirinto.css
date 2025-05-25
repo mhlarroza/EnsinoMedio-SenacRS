@@ -1,21 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url("fundoregras2.png");
-    background-repeat: no-repeat;
-    background-size: 1400px 700px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    background: url("fundoregras2.png") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
 }
 
 .box {
-    background-color: rgb(94, 34, 151);
-    margin-top: 200px;
-    margin-left: 400px;
-    margin-right: 400px;
-    border-radius: 5%;
+    background-color: #a74cf2;
+    padding: 50px 150px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    width: fit-content; /* mantém a caixa compacta */
+    text-align: left; /* texto à esquerda */
+    margin-left: 0; /* gruda na esquerda se precisar */
 }
 
-#titulo {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: "Karla", "Helvetica Neue", sans-serif;
-    font-size: 50px;
-    font-style: normal;
+ol {
+    list-style: decimal;
+    color: white;
+    font-size: 1.3em;
+    padding-left: 20px; /* recuo clássico da lista */
+    margin: 0;
+}
+
+ol li {
+    margin-bottom: 15px;
+    text-align: left; /* força cada item à esquerda */
+}
+
+
+.voltar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.voltar img {
+    width: 30px;
+    height: 30px;
 }
