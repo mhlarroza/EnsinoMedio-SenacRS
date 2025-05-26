@@ -21,10 +21,10 @@ h1 {
 }
 
 .box {
-    background-color: #a74cf2;
-    padding: 50px 150px;
+    background-color: rgb(56, 6, 56);
+    padding: 30px 60px;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     width: fit-content; /* mantém a caixa compacta */
     text-align: left; /* texto à esquerda */
     margin-left: 0; /* gruda na esquerda se precisar */
@@ -54,7 +54,29 @@ ol li {
     color: white;
 }
 
-.voltar img {
+.botoes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.voltar, .ir {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.voltar:hover, .ir:hover {
+    transform: scale(1.05);
+}
+
+.voltar img, .ir img {
     width: 30px;
     height: 30px;
 }
