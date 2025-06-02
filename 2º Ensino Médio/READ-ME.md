@@ -4,7 +4,7 @@
 **Um jogo de labirinto onde o jogador precisa escapar da torre.**
 
 ### Área do Projeto:
-**Técnico**
+**Técnico Profissionalizante**
 
 ## Integrantes:
 | Nome                 | GitHub                                                            | Contato                     |
