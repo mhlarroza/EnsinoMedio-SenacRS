@@ -22,3 +22,16 @@ Use as setas UP, DOWN, RIGHT e LEFT para mover a Rapunzel dentro do labirinto e 
 ## Ferramentas Utilizadas:
 - **Linguagens**: HTML, CSS, JavaScript
 - **Ambiente de Desenvolvimento**: Notebook
+
+## Como Executar o Projeto:
+Pode ser executado por softwares como VS Code, utilizando os arquivos de HTML, CSS e JavaScript.
+
+## Melhorias Futuras:
+Outras fases, randomizar o labirinto a cada rodada, etc.
+
+## Público Alvo:
+Livre, sem classificação de idade.
+
+## Cenário:
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/d0dab293-c600-43d0-b92d-ac60ab6f49ca" />
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/aae45519-7efd-4c68-9076-826fc727c20a" />
