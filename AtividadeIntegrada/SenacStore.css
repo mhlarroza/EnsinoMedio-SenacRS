@@ -1,0 +1,85 @@
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 0 0;
+    text-align:center;
+    font-size: 15px;
+    color: white;
+    line-height: 1.5;
+}
+
+#senac {
+    font-size: 25px;
+}
+
+#p1 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    background-color: silver;
+    margin-right: 80%;
+}
+
+#p2 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    background-color: silver;
+    margin-left: 25%;
+    margin-right: 55%;
+    margin-top: -83px;
+
+}
+
+#p3 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    background-color: silver;
+    margin-left: 50%;
+    margin-right: 30%;
+    margin-top: -83px;
+}
+
+#p4 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    background-color: silver;
+    margin-left: 75%;
+    margin-right: 5%;
+    margin-top: -83px;
+}
+
+#p5 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    background-color: silver;
+    margin-left: 25%;
+    margin-right: 55%;
+}
+
+#p6 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    background-color: silver;
+    margin-left: 50%;
+    margin-right: 30%;
+    margin-top: -83px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 0 0;
+    text-align:center;
+    font-size: 15px;
+    color: white;
+    margin-bottom: -30%;
+}
