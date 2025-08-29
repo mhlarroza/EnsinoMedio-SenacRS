@@ -81,5 +81,11 @@ footer {
     text-align:center;
     font-size: 15px;
     color: white;
-    margin-bottom: -30%;
+}
+
+#rodape {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
 }
