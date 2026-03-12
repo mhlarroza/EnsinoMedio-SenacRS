@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Shop - Produtos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="produtos1.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Buscar produtos para seu pet...">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+
+      <div class="profile">
+        <i class="fas fa-user"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filtros por categoria -->
+  <div class="filters-container">
+    <div class="filters">
+      <button class="filter-btn active" data-category="all">Todos</button>
+      <button class="filter-btn" data-category="1">Alimentação</button>
+      <button class="filter-btn" data-category="2">Brinquedos</button>
+      <button class="filter-btn" data-category="3">Passeio</button>
+      <button class="filter-btn" data-category="4">Higiene</button>
+      <button class="filter-btn" data-category="5">Conforto</button>
+      <button class="filter-btn" data-category="6">Roupas</button>
+    </div>
+  </div>
+
+  <main>
+    <div class="grid" id="productsGrid">
+
+      <!-- Alimentos -->
+
+      <div class="card" data-category="1">
+        <img src="Imagens/Ração.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Ração Premium Sabor Carne</div>
+          <div class="size">P</div>
+          <div class="price">R$ 120,90</div>
+          <div class="creator">1</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="1">
+        <img src="Imagens/Ração.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Ração Premium Sabor Carne</div>
+          <div class="size">M</div>
+          <div class="price">R$ 127,90</div>
+          <div class="creator">1</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="1">
+        <img src="Imagens/Ração.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Ração Premium Sabor Carne</div>
+          <div class="size">G</div>
+          <div class="price">R$ 134.90</div>
+          <div class="creator">1</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="1">
+        <img src="Imagens/Petisco.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Petisco Natural Desidratado</div>
+          <div class="size">P</div>
+          <div class="price">R$ 30,00</div>
+          <div class="creator">1</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="1">
+        <img src="Imagens/Petisco.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Petisco Natural Desidratado</div>
+          <div class="size">M</div>
+          <div class="price">R$ 35,50</div>
+          <div class="creator">1</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="1">
+        <img src="Imagens/Petisco.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Petisco Natural Desidratado</div>
+          <div class="size">G</div>
+          <div class="price">R$ 41,00</div>
+          <div class="creator">1</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="1">
+        <img src="Imagens/Ossinho.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Ossinho Mastigável DentalCare</div>
+          <div class="size">P</div>
+          <div class="price">R$ 20,00</div>
+          <div class="creator">1</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="1">
+        <img src="Imagens/Ossinho.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Ossinho Mastigável DentalCare</div>
+          <div class="size">M</div>
+          <div class="price">R$ 23,90</div>
+          <div class="creator">1</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="1">
+        <img src="Imagens/Ossinho.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Ossinho Mastigável DentalCare</div>
+          <div class="size">G</div>
+          <div class="price">R$ 27,80</div>
+          <div class="creator">1</div>
+        </div>
+      </div>
+
+      <!-- Brinquedos -->
+
+      <div class="card" data-category="2">
+        <img src="Imagens/Mordedor.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Mordedor Resistente PowerChew</div>
+          <div class="size">P</div>
+          <div class="price">R$ 40,00</div>
+          <div class="creator">2</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="2">
+        <img src="Imagens/Mordedor.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Mordedor Resistente PowerChew</div>
+          <div class="size">M</div>
+          <div class="price">R$ 46,00</div>
+          <div class="creator">2</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="2">
+        <img src="Imagens/Mordedor.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Mordedor Resistente PowerChew</div>
+          <div class="size">G</div>
+          <div class="price">R$ 52,00</div>
+          <div class="creator">2</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="2">
+        <img src="Imagens/Frisbee.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Disco Frisbee DogFly</div>
+          <div class="size">P</div>
+          <div class="price">R$ 10,90</div>
+          <div class="creator">2</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="2">
+        <img src="Imagens/Frisbee.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Disco Frisbee DogFly</div>
+          <div class="size">M</div>
+          <div class="price">R$ 12,90</div>
+          <div class="creator">2</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="2">
+        <img src="Imagens/Frisbee.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Disco Frisbee DogFly</div>
+          <div class="size">G</div>
+          <div class="price">R$ 14,90</div>
+          <div class="creator">2</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="2">
+        <img src="Imagens/Pelúcia.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Pelúcia Sonora FunDog</div>
+          <div class="size">P</div>
+          <div class="price">R$ 60,50</div>
+          <div class="creator">2</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="2">
+        <img src="Imagens/Pelúcia.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Pelúcia Sonora FunDog</div>
+          <div class="size">M</div>
+          <div class="price">R$ 68,90</div>
+          <div class="creator">2</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="2">
+        <img src="Imagens/Pelúcia.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Pelúcia Sonora FunDog</div>
+          <div class="size">G</div>
+          <div class="price">R$ 76,90</div>
+          <div class="creator">2</div>
+        </div>
+      </div>
+
+      <!-- Passeio -->
+
+      <div class="card" data-category="3">
+        <img src="Imagens/Coleira.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Coleira Ajustável ComfortFit</div>
+          <div class="size"></div>
+          <div class="price">R$ 70,00</div>
+          <div class="creator">3</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="3">
+        <img src="Imagens/Guia.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Guia Retrátil FlexWalk</div>
+          <div class="size"></div>
+          <div class="price">R$ 30,00</div>
+          <div class="creator">3</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="3">
+        <img src="Imagens/Peitoral.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Peitoral Ajustável ControlDog</div>
+          <div class="size"></div>
+          <div class="price">R$ 50,00</div>
+          <div class="creator">3</div>
+        </div>
+      </div>
+
+      <!-- Higiene -->
+
+      <div class="card" data-category="4">
+        <img src="Imagens/Shampoo.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Shampoo Antipulgas ProtectPet</div>
+          <div class="size"></div>
+          <div class="price">R$ 80,90</div>
+          <div class="creator">4</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="4">
+        <img src="Imagens/Condicionador.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Condicionador Pelagem Macia</div>
+          <div class="size"></div>
+          <div class="price">R$ 80,90</div>
+          <div class="creator">4</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="4">
+        <img src="Imagens/Spray.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Spray Desembaraçante EasyFur</div>
+          <div class="size"></div>
+          <div class="price">R$ 60,90</div>
+          <div class="creator">4</div>
+        </div>
+      </div>
+
+      <!----- Conforto ----->
+
+      <div class="card" data-category="5">
+        <img src="Imagens/Caminha.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Caminha Ortopédica RelaxDog</div>
+          <div class="size">P</div>
+          <div class="price">R$ 110,80</div>
+          <div class="creator">5</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="5">
+        <img src="Imagens/Caminha.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Caminha Ortopédica RelaxDog</div>
+          <div class="size">M</div>
+          <div class="price">R$ 120,80</div>
+          <div class="creator">5</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="5">
+        <img src="Imagens/Caminha.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Caminha Ortopédica RelaxDog</div>
+          <div class="size">G</div>
+          <div class="price">R$ 130,80</div>
+          <div class="creator">5</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="5">
+        <img src="Imagens/Casinha.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Casinha Plástica Durahouse</div>
+          <div class="size">P</div>
+          <div class="price">R$ 200,00</div>
+          <div class="creator">5</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="5">
+        <img src="Imagens/Casinha.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Casinha Plástica Durahouse</div>
+          <div class="size">M</div>
+          <div class="price">R$ 220,00</div>
+          <div class="creator">5</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="5">
+        <img src="Imagens/Casinha.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Casinha Plástica Durahouse</div>
+          <div class="size">G</div>
+          <div class="price">R$ 240,00</div>
+          <div class="creator">5</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="5">
+        <img src="Imagens/Cobertor.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Cobertor Térmico CozyPaw</div>
+          <div class="size">P</div>
+          <div class="price">R$ 100,00</div>
+          <div class="creator">5</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="5">
+        <img src="Imagens/Cobertor.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Cobertor Térmico CozyPaw</div>
+          <div class="size">M</div>
+          <div class="price">R$ 109,00</div>
+          <div class="creator">5</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="5">
+        <img src="Imagens/Cobertor.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Cobertor Térmico CozyPaw</div>
+          <div class="size">G</div>
+          <div class="price">R$ 118,00</div>
+          <div class="creator">5</div>
+        </div>
+      </div>
+
+      <!-- Roupas -->
+
+      <div class="card" data-category="6">
+        <img src="Imagens/Camiseta.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Camiseta Pet UrbanPaw</div>
+          <div class="size">P</div>
+          <div class="price">R$ 72,00</div>
+          <div class="creator">6</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="6">
+        <img src="Imagens/Camiseta.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Camiseta Pet UrbanPaw</div>
+          <div class="size">M</div>
+          <div class="price">R$ 82,00</div>
+          <div class="creator">6</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="6">
+        <img src="Imagens/Camiseta.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Camiseta Pet UrbanPaw</div>
+          <div class="size">G</div>
+          <div class="price">R$ 92,00</div>
+          <div class="creator">6</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="6">
+        <img src="Imagens/Suéter.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Suéter Tricot AuAu</div>
+          <div class="size">P</div>
+          <div class="price">R$ 70,00</div>
+          <div class="creator">6</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="6">
+        <img src="Imagens/Suéter.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Suéter Tricot AuAu</div>
+          <div class="size">M</div>
+          <div class="price">R$ 75,00</div>
+          <div class="creator">6</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="6">
+        <img src="Imagens/Suéter.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+            <div class="name">Suéter Tricot AuAu</div>
+            <div class="size">G</div>
+            <div class="price">R$ 80,00</div>
+            <div class="creator">6</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="6">
+        <img src="Imagens/Vestido.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Vestido Princesa Canina</div>
+          <div class="size">P</div>
+          <div class="price">R$ 60,90</div>
+          <div class="creator">6</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="6">
+        <img src="Imagens/Vestido.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Vestido Princesa Canina</div>
+          <div class="size">M</div>
+          <div class="price">R$ 66,90</div>
+          <div class="creator">6</div>
+        </div>
+      </div>
+
+      <div class="card" data-category="6">
+        <img src="Imagens/Vestido.jpeg" alt="Suéter Tricot AuAu tamanho G" class="product-image">
+        <div class="info">
+          <div class="name">Vestido Princesa Canina</div>
+          <div class="size">G</div>
+          <div class="price">R$ 52,90</div>
+          <div class="creator">6</div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="produtos1.js"></script>
+
+</body>
+</html>
